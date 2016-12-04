@@ -86,6 +86,14 @@ To generate a KML of the network route between source and destination IP address
 
     sudo nmap --traceroute --script traceroute-geolocation --script-args 'traceroute-geolocation.kmlfile=test.kml' [RETURNED IP ADDRESS]
 
+This can be uploaded to [Google My Maps](www.google.com/mymaps) to visualise.
+
+[Note: consider OSM alternative - conversion to GPX, JOSM]
+
+Shortcut for Mac partial screenshot
+
+    Command + Control + Shift + 4
+
 ## Graph output
 
 Open the *word-count-beam.Rproj* file in *RStudio* and execute the *analyis.R* script.
